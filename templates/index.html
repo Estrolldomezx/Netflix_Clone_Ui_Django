@@ -1,0 +1,28 @@
+{% extends 'layout.html'%} <!--import title-->
+{% block content %}
+    <br>
+    <div class="title" style="color: white; width: 24%;">
+        <p>Deprived of his mighty hammer Mjolnir,  Thor must escape the other side of the universe to save his home, Asgard, from Hela, the goddess of death.</p> 
+    </div>
+    <img src="https://scontent.fhdy3-1.fna.fbcdn.net/v/t1.0-9/140054420_3599428513506317_6141817155514634475_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_eui2=AeEEQTImT1ewYjHHSiEJZzvBOiwVAu2uYnw6LBUC7a5ifMzbYpI5uvGCUTsizwwG-mlXWTq8rmO8I9hwXoMmhEEM&_nc_ohc=DADu5soJXWoAX_1UmbR&_nc_ht=scontent.fhdy3-1.fna&oh=dda05251d8edbf5efc91910095807e06&oe=6031399C" 
+    style="float:right; right:20px; top:30px; position: absolute; border-color: black;">
+    <div class="produce" style="color: gray;">
+        {{ starring }} 
+        <br>
+        {{ creator }}
+        
+    </div>    
+{% endblock %}
+    <ul>
+        {%  for tag in tags %}
+            <li>{{tag}}</li>
+        {%  endfor%}
+    </ul>
+    <h2>ความนิยมของสถานที่</h2> <!-- if-->
+    {% if rating > 3 %}
+        <h3>คะแนนนิยมสูงสุด</h3>
+    {% else %}
+        <h3>คะแนนนิยมปานกลาง</h3>
+    {% endif %}
+</body>
+</html> -->

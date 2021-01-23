@@ -1,0 +1,3 @@
+deactivate ออกจาก proj
+workon proj กลับไปยัง proj
+python manage.py runserver
