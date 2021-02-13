@@ -8,5 +8,5 @@ def hello(request): #create view
         'background':'ttps://asset-a.grid.id/crop/0x0:0x0/x/photo/2020/09/18/47557070.jpeg',
     }) #reference templates that i made it
 
-def europe(request):
-    return render(request,'europe.html')
+#def europe(request):
+#   return render(request,'europe.html')
