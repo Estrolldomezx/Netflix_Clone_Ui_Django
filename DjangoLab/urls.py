@@ -20,5 +20,5 @@ from dnature import views
 urlpatterns = [
     path('admin/', admin.site.urls), #localhost/admin
     path('', views.hello,name='Homepage'), #views 
-    path('page2/', views.europe,name='Page2')
+#    path('page2/', views.europe,name='Page2')
 ]
